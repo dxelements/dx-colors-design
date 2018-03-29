@@ -34,7 +34,7 @@ Later in your SCSS file, use one of the variables:
 You can also load the `colors-shared-styles.html` style module to expose all colors as global CSS variables:
 
 ```html
-<link rel="import" href="../px-colors-design/colors-shared-styles.html"/>
+<link rel="import" href="../dx-colors-design/colors-shared-styles.html"/>
 <custom-style>
   <style include="colors-shared-styles">
     .alertbox {
