@@ -1,0 +1,252 @@
+// Settings
+// ...
+
+// Generic
+
+@import "px-normalize-design/_generic.normalize.scss";
+@import "px-box-sizing-design/_generic.box-sizing.scss";
+@import "px-helpers-design/_generic.helpers.scss";
+@import "../_settings.colors.scss";
+
+// Base
+
+@import "px-flexbox-design/_base.flexbox.scss";
+@import "px-viewport-design/_base.viewport.scss";
+
+// Objects
+
+$inuit-enable-layout--huge : true;
+@import "px-layout-design/_objects.layout.scss";
+
+// Component
+
+:host {
+  display: block;
+  // margin: 2rem;
+}
+
+.demo-color-swatch {
+  margin-right: 10px;
+  height: 30px;
+  padding-left: 8px;
+  flex: 1 0 auto;
+}
+.demo-color-swatch-label {
+  width: 140px;
+  text-align: left;
+}
+.demo-color-swatch--container {
+  line-height: 30px;
+  height: 30px;
+  white-space: nowrap;
+  display: flex;
+}
+
+.black                { background-color: $black; }
+.gray20               { background-color: $gray20; }
+.gray19               { background-color: $gray19; }
+.gray18               { background-color: $gray18; }
+.gray17               { background-color: $gray17; }
+.gray16               { background-color: $gray16; }
+.gray15               { background-color: $gray15; }
+.gray14               { background-color: $gray14; }
+.gray13               { background-color: $gray13; }
+.gray12               { background-color: $gray12; }
+.gray11               { background-color: $gray11; }
+.gray10               { background-color: $gray10; }
+.gray9                { background-color: $gray9; }
+.gray8                { background-color: $gray8; }
+.gray7                { background-color: $gray7; }
+.gray6                { background-color: $gray6; }
+.gray5                { background-color: $gray5; }
+.gray4                { background-color: $gray4; }
+.gray3                { background-color: $gray3; }
+.gray2                { background-color: $gray2; }
+.gray1                { background-color: $gray1; }
+.white                { background-color: $white; border: 1px solid $gray1; }
+.primary-default      { background-color: $primary-default; }
+.primary-hover        { background-color: $primary-hover; }
+.primary-pressed      { background-color: $primary-pressed; }
+.primary-light        { background-color: $primary-light; }
+.select-default       { background-color: $select-default; }
+.select-hover         { background-color: $select-hover; }
+.select-pressed       { background-color: $select-pressed; }
+.select-light         { background-color: $select-light; }
+.d-actionable-default { background-color: $d-actionable-default; }
+.d-actionable-hover   { background-color: $d-actionable-hover; }
+.d-actionable-pressed { background-color: $d-actionable-pressed; }
+.status-red1          { background-color: $status-red1; }
+.status-red2          { background-color: $status-red2; }
+.status-red3          { background-color: $status-red3; }
+.status-red4          { background-color: $status-red4; }
+.status-orange1       { background-color: $status-orange1; }
+.status-orange2       { background-color: $status-orange2; }
+.status-orange3       { background-color: $status-orange3; }
+.status-orange4       { background-color: $status-orange4; }
+.status-yellow1       { background-color: $status-yellow1; }
+.status-yellow2       { background-color: $status-yellow2; }
+.status-yellow3       { background-color: $status-yellow3; }
+.status-yellow4       { background-color: $status-yellow4; }
+.status-blue1         { background-color: $status-blue1; }
+.status-blue2         { background-color: $status-blue2; }
+.status-blue3         { background-color: $status-blue3; }
+.status-blue4         { background-color: $status-blue4; }
+.status-green1        { background-color: $status-green1; }
+.status-green2        { background-color: $status-green2; }
+.status-green3        { background-color: $status-green3; }
+.status-green4        { background-color: $status-green4; }
+.orange1              { background-color: $orange1; }
+.orange2              { background-color: $orange2; }
+.orange3              { background-color: $orange3; }
+.orange4              { background-color: $orange4; }
+.orange5              { background-color: $orange5; }
+.orange6              { background-color: $orange6; }
+.orange7              { background-color: $orange7; }
+.orange8              { background-color: $orange8; }
+.orange9              { background-color: $orange9; }
+.orange10             { background-color: $orange10; }
+.yellow1              { background-color: $yellow1; }
+.yellow2              { background-color: $yellow2; }
+.yellow3              { background-color: $yellow3; }
+.yellow4              { background-color: $yellow4; }
+.yellow5              { background-color: $yellow5; }
+.yellow6              { background-color: $yellow6; }
+.yellow7              { background-color: $yellow7; }
+.yellow8              { background-color: $yellow8; }
+.yellow9              { background-color: $yellow9; }
+.yellow10             { background-color: $yellow10; }
+.yellow-green1        { background-color: $yellow-green1; }
+.yellow-green2        { background-color: $yellow-green2; }
+.yellow-green3        { background-color: $yellow-green3; }
+.yellow-green4        { background-color: $yellow-green4; }
+.yellow-green5        { background-color: $yellow-green5; }
+.yellow-green6        { background-color: $yellow-green6; }
+.yellow-green7        { background-color: $yellow-green7; }
+.yellow-green8        { background-color: $yellow-green8; }
+.yellow-green9        { background-color: $yellow-green9; }
+.yellow-green10       { background-color: $yellow-green10; }
+.green1               { background-color: $green1; }
+.green2               { background-color: $green2; }
+.green3               { background-color: $green3; }
+.green4               { background-color: $green4; }
+.green5               { background-color: $green5; }
+.green6               { background-color: $green6; }
+.green7               { background-color: $green7; }
+.green8               { background-color: $green8; }
+.green9               { background-color: $green9; }
+.green10              { background-color: $green10; }
+.teal1                { background-color: $teal1; }
+.teal2                { background-color: $teal2; }
+.teal3                { background-color: $teal3; }
+.teal4                { background-color: $teal4; }
+.teal5                { background-color: $teal5; }
+.teal6                { background-color: $teal6; }
+.teal7                { background-color: $teal7; }
+.teal8                { background-color: $teal8; }
+.teal9                { background-color: $teal9; }
+.teal10               { background-color: $teal10; }
+.aqua1                { background-color: $aqua1; }
+.aqua2                { background-color: $aqua2; }
+.aqua3                { background-color: $aqua3; }
+.aqua4                { background-color: $aqua4; }
+.aqua5                { background-color: $aqua5; }
+.aqua6                { background-color: $aqua6; }
+.aqua7                { background-color: $aqua7; }
+.aqua8                { background-color: $aqua8; }
+.aqua9                { background-color: $aqua9; }
+.aqua10               { background-color: $aqua10; }
+.cyan1                { background-color: $cyan1; }
+.cyan2                { background-color: $cyan2; }
+.cyan3                { background-color: $cyan3; }
+.cyan4                { background-color: $cyan4; }
+.cyan5                { background-color: $cyan5; }
+.cyan6                { background-color: $cyan6; }
+.cyan7                { background-color: $cyan7; }
+.cyan8                { background-color: $cyan8; }
+.cyan9                { background-color: $cyan9; }
+.cyan10               { background-color: $cyan10; }
+.blue1                { background-color: $blue1; }
+.blue2                { background-color: $blue2; }
+.blue3                { background-color: $blue3; }
+.blue4                { background-color: $blue4; }
+.blue5                { background-color: $blue5; }
+.blue6                { background-color: $blue6; }
+.blue7                { background-color: $blue7; }
+.blue8                { background-color: $blue8; }
+.blue9                { background-color: $blue9; }
+.blue10               { background-color: $blue10; }
+.violet1              { background-color: $violet1; }
+.violet2              { background-color: $violet2; }
+.violet3              { background-color: $violet3; }
+.violet4              { background-color: $violet4; }
+.violet5              { background-color: $violet5; }
+.violet6              { background-color: $violet6; }
+.violet7              { background-color: $violet7; }
+.violet8              { background-color: $violet8; }
+.violet9              { background-color: $violet9; }
+.violet10             { background-color: $violet10; }
+.purple1              { background-color: $purple1; }
+.purple2              { background-color: $purple2; }
+.purple3              { background-color: $purple3; }
+.purple4              { background-color: $purple4; }
+.purple5              { background-color: $purple5; }
+.purple6              { background-color: $purple6; }
+.purple7              { background-color: $purple7; }
+.purple8              { background-color: $purple8; }
+.purple9              { background-color: $purple9; }
+.purple10             { background-color: $purple10; }
+.pink1                { background-color: $pink1; }
+.pink2                { background-color: $pink2; }
+.pink3                { background-color: $pink3; }
+.pink4                { background-color: $pink4; }
+.pink5                { background-color: $pink5; }
+.pink6                { background-color: $pink6; }
+.pink7                { background-color: $pink7; }
+.pink8                { background-color: $pink8; }
+.pink9                { background-color: $pink9; }
+.pink10               { background-color: $pink10; }
+.red1                 { background-color: $red1; }
+.red2                 { background-color: $red2; }
+.red3                 { background-color: $red3; }
+.red4                 { background-color: $red4; }
+.red5                 { background-color: $red5; }
+.red6                 { background-color: $red6; }
+.red7                 { background-color: $red7; }
+.red8                 { background-color: $red8; }
+.red9                 { background-color: $red9; }
+.red10                { background-color: $red10; }
+.brown1               { background-color: $brown1; }
+.brown2               { background-color: $brown2; }
+.brown3               { background-color: $brown3; }
+.brown4               { background-color: $brown4; }
+.brown5               { background-color: $brown5; }
+.brown6               { background-color: $brown6; }
+.brown7               { background-color: $brown7; }
+.brown8               { background-color: $brown8; }
+.brown9               { background-color: $brown9; }
+.brown10              { background-color: $brown10; }
+.neutral-gray1        { background-color: $neutral-gray1; }
+.neutral-gray2        { background-color: $neutral-gray2; }
+.neutral-gray3        { background-color: $neutral-gray3; }
+.neutral-gray4        { background-color: $neutral-gray4; }
+.neutral-gray5        { background-color: $neutral-gray5; }
+.neutral-gray6        { background-color: $neutral-gray6; }
+.neutral-gray7        { background-color: $neutral-gray7; }
+.neutral-gray8        { background-color: $neutral-gray8; }
+.neutral-gray9        { background-color: $neutral-gray9; }
+.neutral-gray10       { background-color: $neutral-gray10; }
+.salmon1              { background-color: $salmon1; }
+.salmon2              { background-color: $salmon2; }
+.salmon3              { background-color: $salmon3; }
+.salmon4              { background-color: $salmon4; }
+.salmon5              { background-color: $salmon5; }
+.salmon6              { background-color: $salmon6; }
+.salmon7              { background-color: $salmon7; }
+.salmon8              { background-color: $salmon8; }
+.salmon9              { background-color: $salmon9; }
+.salmon10             { background-color: $salmon10; }
+
+// Trumps
+
+@import "px-spacing-responsive-design/_trumps.spacing-responsive.scss";
+@import "px-widths-responsive-design/_trumps.widths-responsive.scss";

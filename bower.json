@@ -1,0 +1,28 @@
+{
+  "name": "dx-colors-design",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Open source color palette for the Predix Design System",
+  "main": "_settings.colors.scss",
+  "homepage": "https://github.com/dxdesign/dx-colors-design.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "sass",
+    "*.md",
+    "gulpfile.js"
+  ],
+  "devDependencies": {
+    "px-normalize-design": "^1.0.3",
+    "px-box-sizing-design": "^1.0.3",
+    "px-helpers-design": "^1.0.8",
+    "px-flexbox-design": "^1.0.3",
+    "px-viewport-design": "^1.0.3",
+    "px-layout-design": "^1.0.2",
+    "px-spacing-responsive-design": "^1.0.3",
+    "px-widths-responsive-design": "^1.0.5",
+    "polymer": "^2.6.0",
+    "webcomponentsjs": "^1.1.1"
+  }
+}
