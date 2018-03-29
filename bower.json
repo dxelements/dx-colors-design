@@ -4,7 +4,7 @@
   "license": "MIT",
   "description": "Open source color palette for the Predix Design System",
   "main": "_settings.colors.scss",
-  "homepage": "https://github.com/dxdesign/dx-colors-design.git",
+  "homepage": "https://github.com/dxelements/dx-colors-design.git",
   "ignore": [
     "**/.*",
     "node_modules",
